@@ -1,5 +1,5 @@
 .img-with-shadow {
-  box-shadow: -3px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
 
   margin: 0 0 10px 0;

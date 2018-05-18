@@ -43,32 +43,24 @@ p {
 
 a:link {
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(0, 0, 0, 0.6);
+  color: #c80064;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(0, 0, 0, 0.6);
+  color: #c80064;
 }
 
 a:hover {
   text-decoration: none;
-  color: #c76393;
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(199, 99, 147, 0.6);
+  color: #c7779f;
 
-  transition-property: border-bottom, border-bottom-color, color;
+  transition-property: color;
   transition-duration: 0.33s;
   transition-timing-function: ease-out;
 }
 
 a:active {
   text-decoration: none;
-  color: #c72874;
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(199, 40, 116, 0.6);
+  color: #c7779f;
 }

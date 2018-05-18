@@ -19,21 +19,37 @@ h4 {
   font-weight: 900;
   margin: 0;
 }
-
-h1 {
-  font-size: 3.375rem;
-}
-h2 {
-  font-size: 2.25rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-
 p {
   font-family: "Lora", Times, serif;
   font-weight: normal;
-  font-size: 1.5rem;
   line-height: 120%;
   margin: 0;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+p {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.375rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }

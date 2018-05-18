@@ -1,0 +1,56 @@
+nav,
+header {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  padding: 100px 100px 100px 100px;
+}
+.logo {
+  height: 25px;
+}
+.logo-sm {
+  height: 27px;
+}
+.nav-name {
+  font-weight: 900;
+  font-size: 2.25rem;
+  margin: 0;
+}
+.nav-text {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+  margin: 100px 0 100px 0;
+}
+
+a.nav-link:link {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+
+a.nav-link:visited {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+
+a.nav-link:hover {
+  text-decoration: none;
+  color: #c76393;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(199, 99, 147, 0.6);
+
+  transition-property: border-bottom, border-bottom-color, color;
+  transition-duration: 0.33s;
+  transition-timing-function: ease-out;
+}
+
+a.nav-link:active {
+  text-decoration: none;
+  color: #c72874;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(199, 40, 116, 0.6);
+}

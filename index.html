@@ -20,48 +20,100 @@
 
 <body>
   <header>
-    <img src="./src/logo.svg">
-    <a class="nav-text nav-link" href="https://www.w3schools.com/css/css_link.asp">
-      Link styles
-    </a>
-  </header>
-  <main>
+    <div class="container">
+      <div class="row">
+        <!-- small screens -->
+        <div class="col-xs-3 hidden-md hidden-lg hidden-xl">
+          <img class="logo" src="./src/logo-sm.svg">
+        </div>
+        <div class="col-xs-offset-6 col-sm-offset-6 col-xs-3 hidden-md hidden-lg hidden-xl">
+          <div class="nav-contacts" style="justify-content: flex-end;">
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">тлгрм</a>
+          </div>
+        </div>
 
-    <h1>Стоп скролинг плаз</h1>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды.
-      <a href="https://www.w3schools.com/css/css_link.asp">
-        Link styles
-      </a>
-    </p>
-    <h2>Карасик</h2>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды.</p>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт
-      зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя
-      угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в
-      окно на звезды.</p>
-    <h2>Карасик</h2>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды.</p>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт
-      зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя
-      угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в
-      окно на звезды.</p>
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт
-      зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя
-      угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в
-      окно на звезды.</p>
-    <div style="width: 80%">
-      <a href="https://www.w3schools.com/css/css_link.asp">
-        <img style="margin: 0" src="http://adaptive-images.com/content/images/becca.jpg" class="img-with-shadow" />
-        <p>Link sty</p>
-      </a>
+        <!-- mid screens -->
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-2">
+          <img class="logo" src="./src/logo.svg">
+        </div>
+        <div class="hidden-xs hidden-sm hidden-lg hidden-xl col-md-offset-6 col-md-3">
+          <div class="nav-contacts">
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
+            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+          </div>
+        </div>
+
+        <!-- big screens -->
+        <div class="hidden-xs hidden-sm hidden-md col-lg-offset-6 col-xl-offset-7 col-lg-4 col-xl-3">
+          <div class="nav-contacts">
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
+            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
+            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
 
-    <p>Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт
-      зазубренного крыла. Пламя угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя
-      угасло, и он глядел в окно на звезды. Алая вспышка осветила силуэт зазубренного крыла. Пламя угасло, и он глядел в
-      окно на звезды.</p>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+          <h1>Обновление сайта Itransition</h1>
+          <p>В 2017 году полностью сменился контент и дизайн сайта
+            <a href="https://www.itransition.com/" target="_blank">Itransition</a>. По ходу проекта я помогал по-немногу всем: копирайтерам с редактурой страниц, дизайнерам — с
+            придумыванием иллюстраций и схем, менеджерам — с оценкой результата. В конце подготовил детализированный прототип
+            главной страницы, которая практически без изменений пошла в прод.</p>
+          <h2>Иллюстрации</h2>
+          <p>Itransition продаёт услуги, которые нельзя потрогать или сфотографировать. На прошлой версии сайта такие абстракции
+            описывались текстом и сложными схемами. В это раз я предложил коллегам иллюстрировать результат, который получают
+            клиенты, а не описывать сами понятия и технические термины.</p>
+        </div>
+
+      </div>
+
+
+
   </main>
-  <nav></nav>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- small screens -->
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8 hidden-md hidden-lg hidden-xl">
+          <div class="nav-name" style="text-align: center">Тим Чебунин</div>
+          <div class="nav-contacts">
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
+            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
+            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+          </div>
+        </div>
+
+        <!-- mid and big screens -->
+        <div class="hidden-xs hidden-sm col-md-12">
+          <div class="nav-name">Тим Чебунин</div>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-2 col-lg-2 col-xl-2">
+          <div class="nav-contacts" style="flex-flow: column">
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
+            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
+            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+          </div>
+        </div>
+
+        <div class="hidden-xs hidden-sm col-md-4 col-lg-3 col-xl-3">
+          <div class="nav-contacts" style="flex-flow: column">
+            <a class="nav-text nav-link" target="_blank" href="https://www.figma.com/file/RBhieHzVvVP03DJb3ozmrAEw/Portfolio">дизайн в фигме</a>
+
+            <a class="nav-text nav-link" target="_blank" href="https://github.com/timchebunin/portfolio">код на гитхабе</a>
+          </div>
+        </div>
+
+      </div>
+  </footer>
 </body>
 
 </html>

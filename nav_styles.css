@@ -1,26 +1,60 @@
 nav,
-header {
+header,
+footer {
   background-color: black;
   color: white;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-  padding: 100px 100px 100px 100px;
+  text-align: left;
 }
+
+header {
+  padding: 35px 0 35px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 40px 0 40px 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  header {
+    padding: 50px 0 50px 0;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 12px 0;
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    padding: 25px 0 25px 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  footer {
+    padding: 37px 0 37px 0;
+  }
+}
+
 .logo {
   height: 25px;
-}
-.logo-sm {
-  height: 27px;
 }
 .nav-name {
   font-weight: 900;
   font-size: 2.25rem;
-  margin: 0;
+  line-height: 150%;
 }
 .nav-text {
   font-weight: 700;
   font-size: 1rem;
-  line-height: 120%;
-  margin: 100px 0 100px 0;
+  line-height: 150%;
+}
+
+.nav-contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
 a.nav-link:link {

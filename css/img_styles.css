@@ -1,31 +1,44 @@
-.img-with-shadow {
-  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);
+img.body {
+  /*box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);*/
   max-width: 100%;
   max-height: 100%;
 
   margin: 0 0 10px 0;
 }
 @media only screen and (min-width: 768px) {
-  .img-with-shadow {
+  img.body {
     margin: 0 0 20px 0;
   }
 }
 
-.img-before-text {
-  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);
+img.before-text {
+  /*box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);*/
   max-width: 100%;
   max-height: 100%;
 
   margin: 0 0 40px 0;
 }
 @media only screen and (min-width: 768px) {
-  .img-before-text {
+  img.before-text {
     margin: 0 0 60px 0;
   }
 }
 
-.img-cover {
-  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);
+.slider-before-text {
+  /*box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);*/
+  max-width: 100%;
+  max-height: 100%;
+
+  margin: 0 0 40px 0;
+}
+@media only screen and (min-width: 768px) {
+  .slider-before-text {
+    margin: 0 0 60px 0;
+  }
+}
+
+img.cover {
+  /*box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.15);*/
   max-width: 100%;
   max-height: 100%;
   margin: 0;
@@ -34,13 +47,13 @@
   top: -20px;
 }
 @media only screen and (min-width: 768px) {
-  .img-cover {
+  img.cover {
     position: relative;
     top: -30px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .img-cover {
+  img.cover {
     position: relative;
     top: -40px;
   }

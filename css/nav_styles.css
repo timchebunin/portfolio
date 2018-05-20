@@ -57,7 +57,7 @@ footer {
 
 .nav-contacts {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 a.nav-link:link {

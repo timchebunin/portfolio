@@ -11,34 +11,12 @@ header {
   padding: 35px 0 38px 0;
 }
 
-@media only screen and (min-width: 768px) {
-  header {
-    padding: 50px 0 55px 0;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  header {
-    padding: 60px 0 65px 0;
-  }
-}
-
 footer {
   display: flex;
   justify-content: space-between;
   padding: 12px 0 12px 0;
 
   margin-top: 50px;
-}
-@media only screen and (min-width: 768px) {
-  footer {
-    padding: 25px 0 25px 0;
-    margin-top: 100px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  footer {
-    padding: 37px 0 37px 0;
-  }
 }
 
 .logo {
@@ -58,12 +36,6 @@ footer {
   font-weight: 900;
   font-size: 1.5rem;
   line-height: 150%;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-page-nav-text {
-    font-size: 2.25rem;
-  }
 }
 
 .nav-contacts {
@@ -97,4 +69,31 @@ a.nav-link:hover {
 a.nav-link:active {
   text-decoration: none;
   color: #c7779f;
+}
+
+/*  --------- md screens --------- */
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 50px 0 55px 0;
+  }
+  footer {
+    padding: 25px 0 25px 0;
+    margin-top: 100px;
+  }
+
+  .main-page-nav-text {
+    font-size: 2.25rem;
+  }
+}
+
+/*  --------- xl screens --------- */
+
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 60px 0 65px 0;
+  }
+  footer {
+    padding: 37px 0 37px 0;
+  }
 }

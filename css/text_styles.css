@@ -56,59 +56,6 @@ p.main-page-last {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 3.375rem;
-    margin: 30px 0 20px 0;
-  }
-  h2 {
-    font-size: 2.25rem;
-    margin: 0 0 10px 0;
-  }
-  h1.main-page {
-    font-size: 3.375rem;
-    margin: 0 0 20px 0;
-  }
-  h2.main-page {
-    font-size: 3.375rem;
-    margin: 60px 0 30px 0;
-  }
-  p.main-page {
-    font-size: 2.25rem;
-    margin: 0 0 30px 0;
-  }
-  p.main-page-last {
-    margin-top: 30px;
-  }
-
-  p {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
-  }
-  p.before-header {
-    font-size: 1.5rem;
-    margin: 0 0 40px 0;
-  }
-  p.before-img {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
-  }
-  p.with-top-margin {
-    margin: 0 0 30px 0;
-  }
-}
-@media only screen and (min-width: 992px) {
-  p.with-top-margin {
-    margin-top: 60px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  h1 {
-    font-size: 3.375rem;
-    margin: 60px 0 20px 0;
-  }
-}
-
 a:link {
   text-decoration: underline;
   color: inherit;
@@ -152,4 +99,65 @@ a.main-page:hover {
 a.main-page:active {
   text-decoration: none;
   color: #c7779f;
+}
+
+/*  --------- md screens --------- */
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.375rem;
+    margin: 30px 0 20px 0;
+  }
+  h2 {
+    font-size: 2.25rem;
+    margin: 0 0 10px 0;
+  }
+  h1.main-page {
+    font-size: 3.375rem;
+    margin: 0 0 20px 0;
+  }
+  h2.main-page {
+    font-size: 3.375rem;
+    margin: 60px 0 30px 0;
+  }
+  p.main-page {
+    font-size: 2.25rem;
+    margin: 0 0 30px 0;
+  }
+  p.main-page-last {
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin: 0 0 30px 0;
+  }
+  p.before-header {
+    font-size: 1.5rem;
+    margin: 0 0 40px 0;
+  }
+  p.before-img {
+    font-size: 1.5rem;
+    margin: 0 0 30px 0;
+  }
+  p.with-top-margin {
+    margin: 0 0 30px 0;
+  }
+}
+
+/*  --------- lg screens --------- */
+
+@media only screen and (min-width: 992px) {
+  p.with-top-margin {
+    margin-top: 60px;
+  }
+}
+
+/*  --------- xl screens --------- */
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.375rem;
+    margin: 60px 0 20px 0;
+  }
 }

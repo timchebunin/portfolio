@@ -50,14 +50,29 @@ footer {
   line-height: 150%;
 }
 .nav-text {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1rem;
   line-height: 150%;
+}
+.main-page-nav-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-page-nav-text {
+    font-size: 2.25rem;
+  }
 }
 
 .nav-contacts {
   display: flex;
   justify-content: space-around;
+}
+.main-page-contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
 a.nav-link:link {

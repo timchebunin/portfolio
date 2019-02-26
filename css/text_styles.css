@@ -2,72 +2,79 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   margin: 0;
+  color: black;
 }
 p {
-  font-family: "Lora", Times, serif;
-  font-weight: normal;
-  line-height: 150%;
+  font-weight: 400;
+  line-height: 130%;
   margin: 0;
+  color: black;
+}
+.sidenote {
+  font-size: 1rem;
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0;
+}
+.cool-link {
+  font-weight: 800;
+  color: black;
+  font-style: italic;
+}
+.variable-sample {
+  font-variation-settings: "wght" var(--var-weight), "slnt" var(--var-slant);
+  font-family: "Inter var experimental", sans-serif;
+  font-kerning: normal;
+  font-variant-ligatures: contextual common-ligatures;
 }
 
 /* ----------------------------------------- */
 h1 {
   font-size: 2.25rem;
-  margin: 20px 0 20px 0;
+  margin: 40px 0 30px 0;
 }
 h2 {
   font-size: 1.5rem;
-  margin: 0 0 10px 0;
+  margin: 30px 0 20px 0;
 }
 p {
   font-size: 1rem;
-  margin: 0 0 25px 0;
-}
-p.before-header {
-  font-size: 1rem;
-  margin: 0 0 30px 0;
-}
-p.before-img {
-  font-size: 1rem;
-  margin: 0 0 25px 0;
-}
-p.with-top-margin {
-  margin: 0 0 25px 0;
+  margin: 0 0 20px 0;
 }
 
 h1.main-page {
   font-size: 2.25rem;
-  margin: 50px 0 20px 0;
+  margin: 40px 0 30px 0;
+  color: white;
 }
 h2.main-page {
-  font-size: 2.25rem;
-  margin: 40px 0 20px 0;
+  font-size: 1.5rem;
+  margin: 30px 0 20px 0;
+  color: white;
+  font-style: italic;
 }
 p.main-page {
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0 0 20px 0;
-}
-p.main-page-last {
-  margin-top: 10px;
+  color: white;
 }
 
 a:link {
-  text-decoration: underline;
-  color: inherit;
+  text-decoration: none;
+  color: #c7779f;
 }
 
 a:visited {
-  text-decoration: underline;
-  color: inherit;
+  text-decoration: none;
+  color: #c7779f;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #c7779f;
 
   transition-property: color;
@@ -76,19 +83,21 @@ a:hover {
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: #c80064;
 }
 
-a.main-page:link {
+a.non-pink:link {
   text-decoration: none;
   color: inherit;
 }
-a.main-page:visited {
+
+a.non-pink:visited {
   text-decoration: none;
   color: inherit;
 }
-a.main-page:hover {
+
+a.non-pink:hover {
   text-decoration: none;
   color: #c7779f;
 
@@ -96,9 +105,10 @@ a.main-page:hover {
   transition-duration: 0.33s;
   transition-timing-function: ease-out;
 }
-a.main-page:active {
+
+a.non-pink:active {
   text-decoration: none;
-  color: #c7779f;
+  color: #c80064;
 }
 
 /*  --------- md screens --------- */
@@ -106,46 +116,31 @@ a.main-page:active {
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 3.375rem;
-    margin: 30px 0 20px 0;
+    margin: 50px 0 20px 0;
   }
   h2 {
     font-size: 2.25rem;
-    margin: 0 0 10px 0;
+    margin: 40px 0 20px 0;
   }
-  h1.main-page {
-    font-size: 3.375rem;
-    margin: 0 0 20px 0;
-  }
-  h2.main-page {
-    font-size: 3.375rem;
-    margin: 60px 0 30px 0;
-  }
-  p.main-page {
-    font-size: 2rem;
-    margin: 0 0 40px 0;
-  }
-  p.main-page-last {
-    margin-top: 30px;
-  }
-
   p {
     font-size: 1.5rem;
     margin: 0 0 30px 0;
   }
-  p.before-header {
-    font-size: 1.5rem;
-    margin: 0 0 40px 0;
+  h1.main-page {
+    font-size: 5rem;
+    margin: 40px 0 30px 0;
   }
-  p.before-img {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
+  h2.main-page {
+    font-size: 2.25rem;
+    margin: 40px 0 30px 0;
   }
-  p.with-top-margin {
+  p.main-page {
+    font-size: 1.5rem;
     margin: 0 0 30px 0;
   }
 }
 
-/*  --------- lg screens --------- */
+/*  
 
 @media only screen and (min-width: 992px) {
   p.with-top-margin {
@@ -153,11 +148,11 @@ a.main-page:active {
   }
 }
 
-/*  --------- xl screens --------- */
+/*  --------- xl screens --------- 
 
 @media only screen and (min-width: 1200px) {
   h1 {
     font-size: 3.375rem;
     margin: 60px 0 20px 0;
   }
-}
+}*/

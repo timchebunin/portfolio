@@ -3,20 +3,17 @@ header,
 footer {
   background-color: black;
   color: white;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   text-align: left;
+  font-style: italic;
 }
 
 header {
-  padding: 35px 0 38px 0;
+  padding: 15px 0 15px 0;
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0 12px 0;
-
-  margin-top: 50px;
+  padding: 15px 0 15px 0;
+  margin-top: 20px;
 }
 
 .logo {
@@ -36,15 +33,18 @@ footer {
   font-weight: 900;
   font-size: 1.5rem;
   line-height: 150%;
+  margin: 20px 0 40px 0;
 }
 
 .nav-contacts {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-style: italic;
 }
 .main-page-contacts {
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 
 a.nav-link:link {
@@ -73,27 +73,4 @@ a.nav-link:active {
 
 /*  --------- md screens --------- */
 
-@media only screen and (min-width: 768px) {
-  header {
-    padding: 50px 0 55px 0;
-  }
-  footer {
-    padding: 25px 0 25px 0;
-    margin-top: 100px;
-  }
-
-  .main-page-nav-text {
-    font-size: 2.25rem;
-  }
-}
-
 /*  --------- xl screens --------- */
-
-@media only screen and (min-width: 1200px) {
-  header {
-    padding: 60px 0 65px 0;
-  }
-  footer {
-    padding: 37px 0 37px 0;
-  }
-}

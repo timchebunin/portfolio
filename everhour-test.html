@@ -18,16 +18,16 @@
   <meta name="theme-color" content="#000000">
   <meta name="keywords" content="Тимофей Чебунин, Чебунин, Тим Чебунин, Тим, Tim Chebunin, Chebunin">
 
-  <title>Тестовое для Everhour</title>
-  <meta data-react-helmet="true" property="og:title" content="Тестовое для Everhour">
-  <meta data-react-helmet="true" name="description" content="Тестовое задание на позицию web-designer в Everhour">
-  <meta data-react-helmet="true" property="og:description" content="Тестовое задание на позицию web-designer в Everhour">
+  <title>Everhour timeline view design</title>
+  <meta data-react-helmet="true" property="og:title" content="Everhour timeline view design">
+  <meta data-react-helmet="true" name="description" content="Test task for Everhour">
+  <meta data-react-helmet="true" property="og:description" content="Test task for Everhour">
   <meta data-react-helmet="true" property="og:url" content="https://timchebunin.com/everhour-test.html">
   <meta data-react-helmet="true" property="og:image" content="https://timchebunin.com/media/main-cover-fb.png">
   <meta data-react-helmet="true" property="vk:image" content="https://timchebunin.com/media/main-cover-fb.png">
   <link data-react-helmet="true" rel="canonical" href="https://timchebunin.com/everhour-test.html">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale" content="en_EN">
 
   <link rel="author" href="https://timchebunin.com">
   <link rel="publisher" href="https://timchebunin.com">
@@ -41,14 +41,8 @@
   <link rel="stylesheet" type="text/css" href="./css/img_styles.css">
   <link rel="stylesheet" type="text/css" href="./css/nav_styles.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
 
-  <!-- Link to jQuery (1.8 or later), -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- fotorama.css & fotorama.js. -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
 
 </head>
@@ -59,76 +53,49 @@
     <div class="container">
       <div class="row">
         <!-- small screens -->
-        <div class="col-xs-3 hidden-md hidden-lg hidden-xl">
-          <a href="./index.html">
-            <img class="logo" src="./media/logo-sm.svg">
-          </a>
+        <div class="col-xs-6 col-sm-4 hidden-md hidden-lg hidden-xl">
+          <div>
+            <a class="nav-text nav-link" href="./index.html">Tim Chebunin</a></div>
         </div>
-        <div class="col-xs-offset-6 col-sm-offset-6 col-xs-3 hidden-md hidden-lg hidden-xl">
-          <div class="nav-contacts" style="justify-content: flex-end;">
-            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">тлгрм</a>
-          </div>
-        </div>
-
-        <!-- mid screens -->
-        <div class="hidden-xs hidden-sm col-md-3 col-lg-2">
-          <a href="./index.html">
-            <img class="logo" src="./media/logo.svg">
-          </a>
-        </div>
-        <div class="hidden-xs hidden-sm hidden-lg hidden-xl col-md-offset-6 col-md-3">
+        <div class="col-xs-offset-2 col-xs-4 col-sm-offset-5 col-sm-3 hidden-md hidden-lg hidden-xl">
           <div class="nav-contacts">
-            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
-            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">tlgrm</a>
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">email</a>
           </div>
         </div>
-
-        <!-- big screens -->
-        <div class="hidden-xs hidden-sm hidden-md col-lg-offset-6 col-xl-offset-7 col-lg-4 col-xl-3">
+    
+        <!-- mid & big screens -->
+        <div class="hidden-xs hidden-sm col-md-6">
+          <div>
+            <a class="nav-text nav-link" href="./index.html">Tim Chebunin, designer</a>
+          </div>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-offset-2 col-md-4 col-lg-offset-2 col-xl-offset-3 col-lg-4 col-xl-3">
           <div class="nav-contacts">
-            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
-            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
-            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
+            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">telegram</a>
+            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">linkedin</a>
+            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">email</a>
           </div>
         </div>
-
       </div>
-
-
-    </div>
-
     </div>
   </header>
 
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
-          <img class="cover" src="./media/everhour-test/cover-sqr.jpg" />
-        </div>
-        <div class="hidden-xs hidden-sm col-md-12 col-lg-12 hidden-xl">
-          <img class="cover" src="./media/everhour-test/cover.jpg" />
-        </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-          <h1>Тестовое для Everhour</h1>
-          <p><a href="https://everhour.com" target="_blank ">Everhour</a> —  популярный инструмент для тайм-трекинга. Ребята
-            искали себе в команду веб-дизайнера, который будет поддерживать и развивать основной продукт компании. Я откликнулся
-            на вакансию и выполнил тестовое задание.</p>
-        </div>
-
-        <div class="hidden-xs hidden-sm hidden-md hidden-lg col-xl-6">
-          <img class="cover" src="./media/everhour-test/cover-sqr.jpg" />
-        </div>
-
-        <div class="col-xs-12 col-xl-11">
-
-          <p>Пользователи everhour часто пишут, что им было бы удобно взглянуть на свою историю не как на список, а как на
-            timeline. Так проще понять как они распределяли свое время в течении дня, добавить или отредактировать его. Тестовое
-            задание — продумать Timeline View для текущей страницы “Time”.</p>
-          <p class="before-img">Я нарисовал Timelive View и попап для редактирования уже записанного времени:</p>
-        </div>
         <div class="col-xs-12">
+          <h1>Everhour timeline view</h1>
+          <p><a href="https://everhour.com" style="color:#1abf68" target="_blank ">Everhour</a> is a popular time-tracking service. Their team was looking for a web-designer to support and develop company’s
+          top product. I filed my CV and submitted a test task.</p>
+
+          <p>Everhour users often claimed that current version of task and time tracking as a list was not very convenient. They
+          would prefer a timeline view to understand clearer how their time was distributed throughout the day. Which also enabled
+          them to track and edit time more effeciently.</p>
+          <p>Everhour’s test task suggested I create a Timeline view tab for an existing page Time. I also added a pop-up for editing
+          tracked time.</p>
+
           <img class="body" style="box-shadow: none;" src="./media/everhour-test/timeline-1.jpg">
           <img class="body" style="box-shadow: none;" src="./media/everhour-test/timeline-2.jpg">
         </div>
@@ -144,34 +111,14 @@
   <footer>
     <div class="container">
       <div class="row">
-        <!-- small screens -->
-        <div class="col-xs-12 col-sm-offset-2 col-sm-8 hidden-md hidden-lg hidden-xl">
-          <div class="nav-name" style="text-align: center">
-            <a class="nav-link" href="./index.html">Тим Чебунин</a>
-          </div>
-          <div class="nav-contacts">
-            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
-            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
-            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
-          </div>
+        <div class="col-xs-6">
+          <div>
+            <a class="nav-text nav-link" href="./index.html">to home 🏠</a></div>
         </div>
-
-        <!-- mid and big screens -->
-        <div class="hidden-xs hidden-sm col-md-12">
-          <div class="nav-name">
-            <a class="nav-link" href="./index.html">Тим Чебунин</a>
-          </div>
+        <div class="col-xs-6">
+          <div style="text-align:right">
+            <a class="nav-text nav-link" href="./design-course.html">next case 🔍</a></div>
         </div>
-        <div class="hidden-xs hidden-sm col-md-4">
-          <div class="nav-contacts" style="flex-flow: column">
-            <a class="nav-text nav-link" target="_blank" href="https://t.me/timchebunin">телеграм</a>
-            <a class="nav-text nav-link" target="_blank" href="https://www.linkedin.com/in/tim-chebunin/">линкедин</a>
-            <a class="nav-text nav-link" target="_blank" href="mailto:tim.chebunin@gmail.com">почта</a>
-            <a class="nav-text nav-link" target="_blank" href="https://github.com/timchebunin/portfolio">этот сайт на гитхабе</a>
-          </div>
-        </div>
-
-
       </div>
   </footer>
 </body>

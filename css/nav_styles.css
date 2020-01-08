@@ -1,10 +1,9 @@
 nav,
 header,
 footer {
-  background-color: black;
-  color: white;
+  background-color: #1c1c1c;
+  color: whitesmoke;
   text-align: left;
-  font-style: italic;
 }
 
 header {
@@ -20,17 +19,17 @@ footer {
   height: 25px;
 }
 .nav-name {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.25rem;
   line-height: 150%;
 }
 .nav-text {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 150%;
 }
 .main-page-nav-text {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.5rem;
   line-height: 150%;
   margin: 20px 0 40px 0;
@@ -39,22 +38,20 @@ footer {
 .nav-contacts {
   display: flex;
   justify-content: space-between;
-  font-style: italic;
 }
 .main-page-contacts {
   display: flex;
   justify-content: space-between;
-  font-style: italic;
 }
 
 a.nav-link:link {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 }
 
 a.nav-link:visited {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 }
 
 a.nav-link:hover {

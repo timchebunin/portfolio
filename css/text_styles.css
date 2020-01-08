@@ -2,28 +2,26 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 800;
+  font-weight: 700;
   margin: 0;
-  color: black;
+  color: #1c1c1c;
 }
 p {
   font-weight: 400;
-  line-height: 130%;
+  line-height: 145%;
   margin: 0;
-  color: black;
+  color: #1c1c1c;
 }
 .sidenote {
   font-size: 1rem;
-  color: white;
+  color: rgba(245, 245, 245, 0.6);
   font-style: italic;
   font-weight: 400;
   line-height: 120%;
-  margin: 0;
 }
 .cool-link {
-  font-weight: 800;
-  color: black;
-  font-style: italic;
+  font-weight: 700;
+  color: #1c1c1c;
 }
 .variable-sample {
   font-variation-settings: "wght" var(--var-weight), "slnt" var(--var-slant);
@@ -45,36 +43,45 @@ p {
   font-size: 1rem;
   margin: 0 0 20px 0;
 }
+ul {
+  list-style-type: "–  ";
+}
+li {
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+}
 
 h1.main-page {
   font-size: 2.25rem;
   margin: 40px 0 30px 0;
-  color: white;
+  color: whitesmoke;
 }
 h2.main-page {
   font-size: 1.5rem;
   margin: 30px 0 20px 0;
-  color: white;
-  font-style: italic;
+  color: whitesmoke;
 }
 p.main-page {
   font-size: 1rem;
   margin: 0 0 20px 0;
-  color: white;
+  color: whitesmoke;
+}
+p.project-link {
+  margin: 0 10px 20px 10px;
 }
 
 a:link {
   text-decoration: none;
-  color: #c7779f;
+  color: rgb(199, 119, 159);
 }
 
 a:visited {
   text-decoration: none;
-  color: #c7779f;
+  color: rgb(199, 119, 159);
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #c7779f;
 
   transition-property: color;
@@ -111,6 +118,15 @@ a.non-pink:active {
   color: #c80064;
 }
 
+a.main-page {
+  margin-left: 15px;
+}
+
+.bullet {
+  color: rgb(199, 119, 159);
+  margin-right: 10px;
+}
+
 /*  --------- md screens --------- */
 
 @media only screen and (min-width: 768px) {
@@ -126,6 +142,10 @@ a.non-pink:active {
     font-size: 1.5rem;
     margin: 0 0 30px 0;
   }
+  li {
+    font-size: 1.5rem;
+    margin: 0 0 30px 0;
+  }
   h1.main-page {
     font-size: 5rem;
     margin: 40px 0 30px 0;
@@ -137,6 +157,16 @@ a.non-pink:active {
   p.main-page {
     font-size: 1.5rem;
     margin: 0 0 30px 0;
+  }
+  li.main-page {
+    font-size: 1.5rem;
+  }
+  ul.main-page {
+    margin: 0 0 30px 0;
+    padding-left: 30px;
+  }
+  p.project-link {
+    margin: 0 15px 30px 15px;
   }
 }
 

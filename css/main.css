@@ -23,10 +23,3 @@ body {
   background-color: white;
   margin: 0px;
 }
-
-.NDA-container {
-  width: 100%;
-  height: 150px;
-  padding: 0 15px 0 15px;
-  border: 2px dotted whitesmoke;
-}

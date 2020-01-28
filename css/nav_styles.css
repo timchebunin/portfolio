@@ -1,71 +1,71 @@
 nav,
 header,
 footer {
-  background-color: #1c1c1c;
-  color: whitesmoke;
-  text-align: left;
+	background-color: #1c1c1c;
+	color: whitesmoke;
+	text-align: left;
 }
 
 header {
-  padding: 15px 0 15px 0;
+	padding: 15px 0 15px 0;
 }
 
 footer {
-  padding: 15px 0 15px 0;
-  margin-top: 20px;
+	padding: 15px 0 15px 0;
+	margin-top: 50px;
 }
 
 .logo {
-  height: 25px;
+	height: 25px;
 }
 .nav-name {
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 150%;
+	font-weight: 700;
+	font-size: 2.25rem;
+	line-height: 150%;
 }
 .nav-text {
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 150%;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 150%;
 }
 .main-page-nav-text {
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 150%;
-  margin: 20px 0 40px 0;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 150%;
+	margin: 20px 0 40px 0;
 }
 
 .nav-contacts {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .main-page-contacts {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 a.nav-link:link {
-  text-decoration: none;
-  color: whitesmoke;
+	text-decoration: none;
+	color: whitesmoke;
 }
 
 a.nav-link:visited {
-  text-decoration: none;
-  color: whitesmoke;
+	text-decoration: none;
+	color: whitesmoke;
 }
 
 a.nav-link:hover {
-  text-decoration: none;
-  color: #c7779f;
+	text-decoration: none;
+	color: #c7779f;
 
-  transition-property: color;
-  transition-duration: 0.33s;
-  transition-timing-function: ease-out;
+	transition-property: color;
+	transition-duration: 0.33s;
+	transition-timing-function: ease-out;
 }
 
 a.nav-link:active {
-  text-decoration: none;
-  color: #c7779f;
+	text-decoration: none;
+	color: #c7779f;
 }
 
 /*  --------- md screens --------- */

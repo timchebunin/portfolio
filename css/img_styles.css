@@ -1,39 +1,39 @@
 img.body {
-  box-shadow: 2px 4px 12px rgba(28, 28, 28, 0.08);
-  max-width: 100%;
-  max-height: 100%;
+	box-shadow: 2px 4px 12px rgba(28, 28, 28, 0.08);
+	max-width: 100%;
+	max-height: 100%;
 
-  margin: 0 0 20px 0;
+	margin: 0 0 20px 0;
 }
 
 img.before-text {
-  box-shadow: 2px 4px 12px rgba(28, 28, 28, 0.08);
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 30px;
+	box-shadow: 2px 4px 12px rgba(28, 28, 28, 0.08);
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 64px;
 }
 
 .slider-before-text {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 30px;
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 30px;
 }
 .issuue-margins {
-  max-width: 100%;
+	max-width: 100%;
 
-  height: 200px;
-  margin: 0 0 40px 0;
+	height: 200px;
+	margin: 0 0 40px 0;
 }
 
 /*  --------- md screens --------- */
 
 @media only screen and (min-width: 768px) {
-  img.body {
-    margin: 0 0 30px 0;
-  }
+	img.body {
+		margin: 0 0 30px 0;
+	}
 
-  .issuue-margins {
-    height: 500px;
-    margin: 0 0 40px 0;
-  }
+	.issuue-margins {
+		height: 500px;
+		margin: 0 0 40px 0;
+	}
 }

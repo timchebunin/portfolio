@@ -1,181 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
 h1,
 h2,
 h3,
 h4 {
-  font-weight: 700;
-  margin: 0;
-  color: #1c1c1c;
+	font-weight: 900;
+	margin: 0;
+	color: #1d1d1d;
+	font-family: "Source Serif Pro", "Inter", serif;
 }
 p {
-  font-weight: 400;
-  line-height: 145%;
-  margin: 0;
-  color: #1c1c1c;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	color: #1d1d1d;
 }
 .sidenote {
-  font-size: 1rem;
-  color: rgba(245, 245, 245, 0.6);
-  font-style: italic;
-  font-weight: 400;
-  line-height: 120%;
+	font-size: 1rem;
+	color: rgba(245, 245, 245, 0.6);
+	font-style: italic;
+	font-weight: 400;
+	line-height: 120%;
 }
 .cool-link {
-  font-weight: 700;
-  color: #1c1c1c;
+	font-family: "Source Serif Pro", "Inter", serif;
+	font-weight: 700;
+	color: #1d1d1d;
 }
 .variable-sample {
-  font-variation-settings: "wght" var(--var-weight), "slnt" var(--var-slant);
-  font-family: "Inter var experimental", sans-serif;
-  font-kerning: normal;
-  font-variant-ligatures: contextual common-ligatures;
+	font-variation-settings: "wght" var(--var-weight), "slnt" var(--var-slant);
+	font-family: "Inter var experimental", sans-serif;
+	font-kerning: normal;
+	font-variant-ligatures: contextual common-ligatures;
 }
 
 /* ----------------------------------------- */
 h1 {
-  font-size: 2.25rem;
-  margin: 40px 0 30px 0;
+	font-size: 2.5rem;
+	margin: 64px 0 24px 0;
 }
 h2 {
-  font-size: 1.5rem;
-  margin: 30px 0 20px 0;
+	font-size: 1.5rem;
+	margin: 24px 0 12px 0;
 }
 p {
-  font-size: 1rem;
-  margin: 0 0 20px 0;
+	font-size: 1rem;
+	line-height: 150%;
+	margin: 0 0 16px 0;
 }
+
 ul {
-  list-style-type: "–  ";
+	list-style-type: "–  ";
+	padding-left: 20px;
+}
+ol {
+	padding-left: 20px;
 }
 li {
-  font-size: 1rem;
-  margin: 0 0 20px 0;
+	font-size: 1rem;
+	margin: 0 0 12px 0;
 }
 
 h1.main-page {
-  font-size: 2.25rem;
-  margin: 40px 0 30px 0;
-  color: whitesmoke;
+	font-size: 2.25rem;
+	margin: 40px 0 30px 0;
+	color: whitesmoke;
 }
 h2.main-page {
-  font-size: 1.5rem;
-  margin: 30px 0 20px 0;
-  color: whitesmoke;
+	font-size: 1.5rem;
+	margin: 30px 0 20px 0;
+	color: whitesmoke;
 }
 p.main-page {
-  font-size: 1rem;
-  margin: 0 0 20px 0;
-  color: whitesmoke;
+	font-size: 1rem;
+	margin: 0 0 20px 0;
+	color: whitesmoke;
 }
 p.project-link {
-  margin: 0 10px 20px 10px;
+	margin: 0 10px 20px 10px;
 }
 
 a:link {
-  text-decoration: none;
-  color: rgb(199, 119, 159);
+	text-decoration: underline;
+	color: inherit;
 }
 
 a:visited {
-  text-decoration: none;
-  color: rgb(199, 119, 159);
+	text-decoration: none;
+	color: inherit;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #c7779f;
+	text-decoration: underline;
+	color: #c7779f;
 
-  transition-property: color;
-  transition-duration: 0.33s;
-  transition-timing-function: ease-out;
+	transition-property: color;
+	transition-duration: 0.33s;
+	transition-timing-function: ease-out;
 }
 
 a:active {
-  text-decoration: none;
-  color: #c80064;
+	text-decoration: none;
+	color: #c80064;
 }
 
 a.non-pink:link {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 a.non-pink:visited {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 a.non-pink:hover {
-  text-decoration: none;
-  color: #c7779f;
+	text-decoration: none;
+	color: #c7779f;
 
-  transition-property: color;
-  transition-duration: 0.33s;
-  transition-timing-function: ease-out;
+	transition-property: color;
+	transition-duration: 0.33s;
+	transition-timing-function: ease-out;
 }
 
 a.non-pink:active {
-  text-decoration: none;
-  color: #c80064;
+	text-decoration: none;
+	color: #c80064;
 }
 
 a.main-page {
-  margin-left: 15px;
+	margin-left: 15px;
 }
 
 .bullet {
-  color: rgb(199, 119, 159);
-  margin-right: 10px;
+	color: rgb(199, 119, 159);
+	margin-right: 10px;
 }
 
 /*  --------- md screens --------- */
 
 @media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 3.375rem;
-    margin: 50px 0 20px 0;
-  }
-  h2 {
-    font-size: 2.25rem;
-    margin: 40px 0 20px 0;
-  }
-  p {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
-  }
-  li {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
-  }
-  h1.main-page {
-    font-size: 5rem;
-    margin: 40px 0 30px 0;
-  }
-  h2.main-page {
-    font-size: 2.25rem;
-    margin: 40px 0 30px 0;
-  }
-  p.main-page {
-    font-size: 1.5rem;
-    margin: 0 0 30px 0;
-  }
-  li.main-page {
-    font-size: 1.5rem;
-  }
-  ul.main-page {
-    margin: 0 0 30px 0;
-    padding-left: 30px;
-  }
-  p.project-link {
-    margin: 0 15px 30px 15px;
-  }
+	h1 {
+		font-size: 3rem;
+		margin: 72px 0 32px 0;
+	}
+	h2 {
+		font-size: 2.2rem;
+		margin: 32px 0 16px 0;
+	}
+	p {
+		font-size: 1.15rem;
+		margin: 0 0 24px 0;
+	}
+	li {
+		font-size: 1.15rem;
+		margin: 0 0 20px 0;
+	}
+
+	h1.main-page {
+		font-size: 5rem;
+		margin: 40px 0 30px 0;
+	}
+	h2.main-page {
+		font-size: 2.25rem;
+		margin: 40px 0 30px 0;
+	}
+	p.main-page {
+		font-size: 1.5rem;
+		margin: 0 0 30px 0;
+	}
+	li.main-page {
+		font-size: 1.5rem;
+	}
+	ul.main-page {
+		margin: 0 0 30px 0;
+		padding-left: 30px;
+	}
+	p.project-link {
+		margin: 0 15px 30px 15px;
+	}
 }
 
-/*  
-
 @media only screen and (min-width: 992px) {
-  p.with-top-margin {
-    margin-top: 60px;
-  }
+	p.with-top-margin {
+		margin-top: 60px;
+	}
 }
 
 /*  --------- xl screens --------- 

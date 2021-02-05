@@ -38,7 +38,7 @@ p {
 /* ----------------------------------------- */
 h1 {
 	font-size: 2.5rem;
-	margin: 64px 0 24px 0;
+	margin: 16px 0 16px 0;
 }
 h2 {
 	font-size: 1.5rem;
@@ -79,6 +79,15 @@ p.main-quote-title {
 	line-height: 120%;
 	text-transform: uppercase;
 	margin-bottom: 0px;
+}
+p.main-promo {
+	color: #fcfaf4;
+	font-family: "Source Serif Pro", "Inter", serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 125%;
+
+	margin: 0 0 16px 0;
 }
 span.highlight {
 	background-color: rgba(209, 78, 78, 1);
@@ -177,7 +186,7 @@ a.main-page {
 @media only screen and (min-width: 768px) {
 	h1 {
 		font-size: 3rem;
-		margin: 72px 0 32px 0;
+		margin: 24px 0 24px 0;
 	}
 	h2 {
 		font-size: 2.2rem;
@@ -223,6 +232,10 @@ a.main-page {
 	p.project-link {
 		margin: 0 15px 30px 15px;
 	}
+	p.main-promo {
+		font-size: 2rem;
+		line-height: 137.5%;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -234,6 +247,10 @@ a.main-page {
 	}
 	p.main-case-card-link {
 		margin-bottom: 64px;
+	}
+	p.main-promo {
+		font-size: 2.5rem;
+		line-height: 136%;
 	}
 }
 

@@ -201,6 +201,9 @@ div.menu-flex-wrap {
 main {
 	padding-top: 48px;
 }
+div.promo-wrap {
+	margin-top: 32px;
+}
 /*  --------- md screens --------- */
 @media only screen and (min-width: 768px) {
 	a.primary-buttton {
@@ -214,7 +217,7 @@ main {
 		width: auto;
 	}
 	div.buttons-wrap {
-		margin: 16px 0 64px 0;
+		margin: 16px 0 60px 0;
 	}
 	div.menu-flex-wrap {
 		padding: 8px 0 8px 0;
@@ -222,11 +225,17 @@ main {
 	main {
 		padding-top: 52px;
 	}
+	div.promo-wrap {
+		margin-top: 64px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
 	div.buttons-wrap {
-		margin: 48px 0 128px 0;
+		margin: 48px 0 160px 0;
+	}
+	div.promo-wrap {
+		margin-top: 80px;
 	}
 }
 

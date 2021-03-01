@@ -20,6 +20,17 @@ img.before-text {
 img.no-shadow {
 	box-shadow: none;
 }
+img.about {
+	height: auto;
+	width: 120px;
+	margin: 80px 0 24px 0;
+	display: block;
+}
+img.about-header {
+	height: auto;
+	width: 40px;
+	display: inline;
+}
 .slider-before-text {
 	max-width: 100%;
 	max-height: 100%;
@@ -57,5 +68,16 @@ img.quote-avatar {
 	.issuue-margins {
 		height: 500px;
 		margin: 0 0 40px 0;
+	}
+	img.about {
+		height: auto;
+		width: 160px;
+		margin: 120px 0 32px 0;
+		display: block;
+	}
+	img.about-header {
+		height: auto;
+		width: 64px;
+		display: inline;
 	}
 }

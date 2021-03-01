@@ -14,6 +14,8 @@ header {
 footer {
 	padding: 0;
 	margin-bottom: 32px;
+	padding: 80px 0 40px 0;
+	margin: 160px 0 0 0;
 }
 
 .logo {
@@ -155,7 +157,6 @@ a.ancor-arrow {
 	font-family: "Inter", serif;
 	font-size: 0.875rem;
 	font-weight: 700;
-	letter-spacing: 0.07em;
 	line-height: 121%;
 	text-align: center;
 	color: #fcfaf4;

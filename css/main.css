@@ -9,9 +9,9 @@ html {
 }
 :root{
   /*accent color, like green or red*/
-  --color-primary-main: #238668;
-  --color-primary-light: #d14e4e;
-  --color-primary-dark: #d14e4e;
+  --color-primary-main: #136A50;
+  --color-primary-light: #238668;
+  --color-primary-dark: #084D38;
   
   --color-black-main: #242424;
   --color-black-light: #666666;

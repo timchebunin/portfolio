@@ -1,8 +1,8 @@
 nav,
 header,
 footer {
-	background-color: #1d1d1d;
-	color: #fcfaf4;
+	background-color: var(--color-black-main);
+	color: var(--color-white-main);
 	text-align: left;
 }
 
@@ -29,7 +29,7 @@ footer {
 h1.menu {
 	font-size: 1.5rem;
 	line-height: 117%;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 	font-weight: 900;
 }
 .nav-text {
@@ -56,17 +56,17 @@ h1.menu {
 
 a.nav-link:link {
 	text-decoration: none;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 }
 
 a.nav-link:visited {
 	text-decoration: none;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 }
 
 a.nav-link:hover {
 	text-decoration: none;
-	color: #d14e4e;
+	color: var(--color-primary-main);
 
 	transition-property: color;
 	transition-duration: 0.33s;
@@ -75,7 +75,7 @@ a.nav-link:hover {
 
 a.nav-link:active {
 	text-decoration: none;
-	color: #e55c5c;
+	color: var(--color-primary-dark);
 }
 
 div.buttons-wrap {
@@ -83,9 +83,9 @@ div.buttons-wrap {
 }
 
 a.primary-buttton {
-	color: #fcfaf4;
+	color: var(--color-white-main);
 	text-decoration: none;
-	background-color: #d14e4e;
+	background-color: var(--color-primary-main);
 	border-radius: 8px;
 	padding: 12px 16px 12px 16px;
 	margin: 0px 0px 8px 0px;
@@ -100,18 +100,18 @@ a.primary-buttton {
 	text-align: center;
 }
 a.primary-buttton:hover {
-	background-color: #e55c5c;
-	color: #fcfaf4;
+	background-color: var(--color-primary-dark);
+	color: var(--color-white-main);
 	transition-property: background-color;
 	transition-duration: 0.33s;
 	transition-timing-function: ease-out;
 }
 
 a.secondary-buttton {
-	color: #fcfaf4;
+	color: var(--color-white-main);
 	text-decoration: none;
-	background-color: #1d1d1d;
-	border-color: rgba(252, 250, 244, 0.5);
+	background-color: var(--color-black-main);
+	border-color: var(--color-grey-lighter);
 	border: solid 1px;
 	border-radius: 8px;
 	padding: 12px 16px 12px 16px;
@@ -127,9 +127,9 @@ a.secondary-buttton {
 	text-align: center;
 }
 a.secondary-buttton:hover {
-	background-color: #1d1d1d;
-	border-color: #e55c5c;
-	color: #fcfaf4;
+	background-color: var(--color-black-main);
+	border-color: var(--color-primary-main);
+	color: var(--color-white-main);
 	transition-property: border-color;
 	transition-duration: 0.33s;
 	transition-timing-function: ease-out;
@@ -141,12 +141,12 @@ a.tertiary-buttton {
 	font-size: 0.875rem;
 	font-weight: 700;
 	line-height: 121%;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 	margin-right: 20px;
 	text-align: center;
 }
 a.tertiary-buttton:hover {
-	color: #d14e4e;
+	color: var(--color-primary-main);
 	transition-property: border-color;
 	transition-duration: 0.33s;
 	transition-timing-function: ease-out;
@@ -159,10 +159,10 @@ a.ancor-arrow {
 	font-weight: 700;
 	line-height: 121%;
 	text-align: center;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 }
 a.ancor-arrow:hover {
-	color: #e55c5c;
+	color: var(--color-primary-dark);
 	transition-property: color;
 	transition-duration: 0.33s;
 	transition-timing-function: ease-out;
@@ -170,23 +170,18 @@ a.ancor-arrow:hover {
 
 a.menu {
 	text-decoration: none;
-	color: #fcfaf4;
+	color: var(--color-white-main);
 }
 a.menu:hover {
-	color: #e55c5c;
+	color: var(--color-primary-dark);
 	transition-property: color;
 	transition-duration: 0.33s;
 	transition-timing-function: ease-out;
 }
 
 div.menu {
-	/*display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 16px 0 16px 0;
-	background-color: rgba(29, 29, 29, 1);*/
 
-	background-color: rgba(29, 29, 29, 1);
+	background-color: var(--color-black-main);
 	position: fixed;
 	top: 0;
 	left: 0;

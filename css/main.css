@@ -7,7 +7,24 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
+:root{
+  /*accent color, like green or red*/
+  --color-primary-main: #238668;
+  --color-primary-light: #d14e4e;
+  --color-primary-dark: #d14e4e;
+  
+  --color-black-main: #242424;
+  --color-black-light: #666666;
+  --color-black-lighter: #878787;
 
+  --color-grey-main: #C8CFD3;
+  --color-grey-light: #E7EBED;
+  --color-grey-lighter: #F3F5F6;
+  --color-grey-dark: #9EA8AD;
+
+  --color-white-main: #fcfaf4;
+  --color-white: #ffffff;
+  }
 html {
   box-sizing: border-box;
 }
@@ -19,7 +36,12 @@ html {
 body {
   font-size: 16px;
   text-align: left;
-  color: #1c1c1c;
-  background-color: white;
+  color: var(--color-black-main);
+  background-color: var(--color-white);
   margin: 0px;
+}
+.case-quotes-background{
+  background-color: var(--color-black-main); 
+  padding: 32px 0 32px 0; 
+  width: 100%;
 }
